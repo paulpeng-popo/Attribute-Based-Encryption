@@ -18,7 +18,7 @@
     - Time stamp: 2021/8/3 10:38:50
 
 + **Note:** If you are lazy, I have provided download saves in my repository
-+ **Note:** After much of attempt, I considered that python versions which later 3.8+ (include 3.8) might fail during ***make***
++ **Note:** I considered that python versions which is 3.8+ may encounter error during ***make***
 + **Note:** Many of instructions were compiled from below two references
 + **Some installation references:** [Link1](https://lrusso96.github.io/blog/cryptography/2021/03/04/charm-setup.html) (English) and [Link2](http://cxyzjd.com/article/qq_34018719/115007249) (Simplified Chinese)
 
