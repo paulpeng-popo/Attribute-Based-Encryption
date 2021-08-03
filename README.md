@@ -20,7 +20,7 @@
 + **Note:** If you are lazy, I have provided download saves in my repository
 + **Note:** I considered that python versions which is 3.8+ may encounter error during ***make***
 + **Note:** Many of instructions were compiled from below two references
-+ **Some installation references:** [Link1](https://lrusso96.github.io/blog/cryptography/2021/03/04/charm-setup.html) (English) and [Link2](http://cxyzjd.com/article/qq_34018719/115007249) (Simplified Chinese)
++ **References:** [Link1](https://lrusso96.github.io/blog/cryptography/2021/03/04/charm-setup.html) (English) and [Link2](http://cxyzjd.com/article/qq_34018719/115007249) (Simplified Chinese)
 
 #### Prerequisites ([gmp](https://gmplib.org/), [pbc](https://crypto.stanford.edu/pbc/download.html), [charm](https://github.com/JHUISI/charm))
 
