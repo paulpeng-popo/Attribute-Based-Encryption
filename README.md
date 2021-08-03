@@ -2,7 +2,7 @@
 
 + [GMP](https://gmplib.org/)
 + [PBC](https://crypto.stanford.edu/pbc/download.html)
-+ [CHARM](https://github.com/JHUISI/charm)
++ [Charm](https://github.com/JHUISI/charm)
 + [ABE-python](https://github.com/sagrawal87/ABE)
 
 + My configurations:
@@ -14,7 +14,7 @@
     - charm-v0.50
 
 + Result:
-    - **SUCCESS** <3
+    - **SUCCESS** :)
     - Time stamp: 2021/8/3 10:38:50
 
 + **Note:** If you are lazy, I have provided download saves in my repository
@@ -31,8 +31,8 @@
     - [ ] sudo apt-get install -y openssl
     - [ ] sudo apt-get install -y libssl-dev
 
-2. First, we started from gmp (***gmp-6.2.1.tar.zst*** for example)
-    + Enter super user mode ~optional~
+2. First, we started from [gmp](https://gmplib.org/) (***gmp-6.2.1.tar.zst*** for example)
+    + Enter super user mode (optional)
         ```shell
         sudo su    # or you add 'sudo' in front of every command below
         ````
@@ -53,9 +53,9 @@
         ```shell
         apt-get install -y libgmp10 libgmp-dev
         ````
-    - [ ] gmp installation complete
+    - [ ] GMP installation complete
 
-3. Second, we then downloaded pbc library *source code* (***pbc-0.5.14.tar.gz*** for example)
+3. Second, we then downloaded [PBC library](https://crypto.stanford.edu/pbc/download.html) *source code* (***pbc-0.5.14.tar.gz*** for example)
     + Expand ***.tar***
         ```shell
         tar -xvf pbc-0.5.14.tar.gz
@@ -68,9 +68,9 @@
         make install
         make check    # optional
         ````
-    - [ ] pbc installation complete
+    - [ ] PBC installation complete
 
-4. Some dependencies required before getting into charm (*if you have already installed one of them before, just skip it*)
+4. Some dependencies required before getting into **Charm**
     + Add python PPA sources and download python 3.7 and dev
         ```shell
         sudo add-apt-repository ppa:deadsnakes/ppa
@@ -108,7 +108,7 @@
         ```shell
         ===================================== 185 passed, 3 skipped, 6 warnings in 18.36s ======================================
         ```
-    + Congratulation <3
+    + Congratulation :)
     - [ ] Charm installation complete
 
 #### Attribute-Based Encryption python3 ([ABE](https://github.com/sagrawal87/ABE))
@@ -116,7 +116,7 @@
 + See [official documentation](https://github.com/sagrawal87/ABE#readme)
 + **NOTE:** we **won't** execute following command
     ```shell
-    pip install -r requirements.txt    # this will install charm-crypto in old version 0.43
+    ~pip install -r requirements.txt~    # this will install charm-crypto in old version 0.43
     ```
 + First, we git clone from this [repository](https://github.com/sagrawal87/ABE)
     ```shell
@@ -133,4 +133,4 @@
 + You can easily modify samples/main.py to try any scheme you wish.
 - [ ] ABE installation complete
 
-### Congratulation! Welcome to world of cryptography
+### Congratulation! Welcome to the world of cryptography
