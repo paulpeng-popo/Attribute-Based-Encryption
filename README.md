@@ -1,6 +1,6 @@
 ## ABE Installation Instructions
 
-+ [GMP](https://gmplib.org/)
++ [gmp](https://gmplib.org/)
 + [PBC](https://crypto.stanford.edu/pbc/download.html)
 + [Charm](https://github.com/JHUISI/charm)
 + [ABE-python](https://github.com/sagrawal87/ABE)
@@ -53,7 +53,7 @@
         ```shell
         apt-get install -y libgmp10 libgmp-dev
         ````
-    - [ ] GMP installation complete
+    - [ ] gmp installation complete
 
 3. Second, we then downloaded [PBC library](https://crypto.stanford.edu/pbc/download.html) *source code* (***pbc-0.5.14.tar.gz*** for example)
     + Expand ***.tar***
