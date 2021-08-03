@@ -4,7 +4,7 @@
 + [PBC](https://crypto.stanford.edu/pbc/download.html)
 + [CHARM](https://github.com/JHUISI/charm)
 + [ABE-python](https://github.com/sagrawal87/ABE)
-<br>
+
 + My configurations:
     - ubuntu 20.04
     - openssl (1.1.1f-1ubuntu2.4)
@@ -16,7 +16,7 @@
 + Result:
     - **SUCCESS** <3
     - Time stamp: 2021/8/3 10:38:50
-<br>
+
 + **Note:** If you are lazy, I have provided download saves in my repository
 + **Note:** After much of attempt, I considered that python versions which later 3.8+ (include 3.8) might fail during ***make***
 + **Note:** Many of instructions were compiled from below two references
@@ -25,12 +25,12 @@
 #### Prerequisites ([gmp](https://gmplib.org/), [pbc](https://crypto.stanford.edu/pbc/download.html), [charm](https://github.com/JHUISI/charm))
 
 1. Before installing, you will need (*if you have already installed one of them before, just skip it*)
-    - [x] sudo apt-get install m4
-    - [x] sudo apt-get install -y flex
-    - [x] sudo apt-get install bison
-    - [x] sudo apt-get install -y openssl
-    - [x] sudo apt-get install -y libssl-dev
-<br>
+    - [ ] sudo apt-get install m4
+    - [ ] sudo apt-get install -y flex
+    - [ ] sudo apt-get install bison
+    - [ ] sudo apt-get install -y openssl
+    - [ ] sudo apt-get install -y libssl-dev
+
 2. First, we started from gmp (***gmp-6.2.1.tar.zst*** for example)
     + Enter super user mode ~optional~
         ```shell
@@ -53,8 +53,8 @@
         ```shell
         apt-get install -y libgmp10 libgmp-dev
         ````
-    - [x] gmp installation complete
-<br>
+    - [ ] gmp installation complete
+
 3. Second, we then downloaded pbc library *source code* (***pbc-0.5.14.tar.gz*** for example)
     + Expand ***.tar***
         ```shell
@@ -68,8 +68,8 @@
         make install
         make check    # optional
         ````
-    - [x] pbc installation complete
-<br>
+    - [ ] pbc installation complete
+
 4. Some dependencies required before getting into charm (*if you have already installed one of them before, just skip it*)
     + Add python PPA sources and download python 3.7 and dev
         ```shell
@@ -88,7 +88,7 @@
         (py37) user@Ubuntu-20.04:~ $
         ```
     + *Step 5 should be operated under this python environment (py37)*
-<br>
+
 5. Last, access **charm** github project **v0.50** *(Version 0.50 is required if your openssl version is 1.1 or above)*<br>Some improvements detailed in [official documentation](https://jhuisi.github.io/charm/updates_050.html)
     + v0.50 is not released currently, so we just git clone it from this [repository](https://github.com/JHUISI/charm)
         ```shell
@@ -109,7 +109,7 @@
         ===================================== 185 passed, 3 skipped, 6 warnings in 18.36s ======================================
         ```
     + Congratulation <3
-    - [x] Charm installation complete
+    - [ ] Charm installation complete
 
 #### Attribute-Based Encryption python3 ([ABE](https://github.com/sagrawal87/ABE))
 
@@ -131,6 +131,6 @@
     python samples/main.py
     ```
 + You can easily modify samples/main.py to try any scheme you wish.
-- [x] ABE installation complete
+- [ ] ABE installation complete
 
 ### Congratulation! Welcome to world of cryptography
