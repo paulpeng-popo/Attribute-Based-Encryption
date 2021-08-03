@@ -22,7 +22,7 @@
 + **Note:** Many of instructions were compiled from below two references
 + **References:** [Link1](https://lrusso96.github.io/blog/cryptography/2021/03/04/charm-setup.html) (English) and [Link2](http://cxyzjd.com/article/qq_34018719/115007249) (Simplified Chinese)
 
-#### Prerequisites ([gmp](https://gmplib.org/), [pbc](https://crypto.stanford.edu/pbc/download.html), [charm](https://github.com/JHUISI/charm))
+### Prerequisites ([gmp](https://gmplib.org/), [pbc](https://crypto.stanford.edu/pbc/download.html), [charm](https://github.com/JHUISI/charm))
 
 1. Before installing, you will need (*if you have already installed one of them before, just skip it*)
     - [ ] sudo apt-get install m4
@@ -111,12 +111,12 @@
     + Congratulation :)
     - [ ] Charm installation complete
 
-#### Attribute-Based Encryption python3 ([ABE](https://github.com/sagrawal87/ABE))
+### Attribute-Based Encryption python3 ([ABE](https://github.com/sagrawal87/ABE))
 
 + See [official documentation](https://github.com/sagrawal87/ABE#readme)
 + **NOTE:** we **won't** execute following command
     ```shell
-    ~pip install -r requirements.txt~    # this will install charm-crypto in old version 0.43
+    pip install -r requirements.txt    # this will install charm-crypto in old version 0.43
     ```
 + First, we git clone from this [repository](https://github.com/sagrawal87/ABE)
     ```shell
